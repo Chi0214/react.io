@@ -1,0 +1,32 @@
+.search{
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+.search .qx{
+    font-size: 14px;
+}
+.search .search_i{
+    width: 87%;
+    background: #e3e3e5;
+    border-radius: 5px;
+}
+.search .search_i{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 10px;
+}
+.search .search_i input{
+    margin-left: 5px;
+    height: 30px;
+    width: 75%;
+    border: none;
+    background: rgba(0, 0, 0, 0);
+    outline: none;
+}
+.icon-sousuo{
+    margin-left: 5px;
+}

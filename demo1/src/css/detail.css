@@ -1,0 +1,42 @@
+
+.detail{
+    position:fixed;
+    bottom: 0px;
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 0 -0.01rem 0.06rem 0;
+}
+.detail{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+}
+.detail .shop {
+    width: 58%;
+}
+.detail .shop ul{
+    display: flex;
+}
+.detail .shop ul li{
+    width: 50%;
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+}
+.detail .shop ul li:nth-child(1){
+    background:#FF9800;
+    border-radius: 20px 0 0 20px;
+}
+.detail .shop ul li:nth-child(2){
+    background:#FF6300;
+    border-radius: 0 20px 20px 0;
+}
+.detail >ul{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}

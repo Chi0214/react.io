@@ -1,0 +1,17 @@
+.router {
+    display: flex;
+    justify-content: space-between;
+    position:fixed;
+    bottom: 0px;
+    background: #ffffff;
+    width: 100%;
+    padding: 10px 15px;
+}
+.router div a {
+    text-decoration: none;
+    color: #666;
+}
+.router div span {
+    font-size: 25px;
+    display: block;
+}
